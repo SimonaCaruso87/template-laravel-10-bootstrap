@@ -1,30 +1,35 @@
 <footer>
-    <div class="content">
-        <h1 class="title border border-black rounded-5 p-2 mt-2">&copy; By - Simona Caruso - Web Dev
-          <div class="simona">
-            <div class="simona__item"></div>
-            <div class="simona__item"></div>
-            <div class="simona__item"></div>
-            <div class="simona__item"></div>
-          </div>
-        </h1>
-        <!-- partial:footer.partial.html -->
-        <div class="icon-social">
-            <ul class="wrapper">
-                <li class="icon facebook">
-                    <span class="tooltip">Facebook</span>
-                    <span><i class="fa-brands fa-facebook-f"></i></span>
-                </li>
-                <li class="icon instagram">
-                    <span class="tooltip">Instagram</span>
-                    <span><i class="fa-brands fa-instagram"></i></span>
-                </li>
-                <li class="icon github">
-                    <span class="tooltip">Github</span>
-                    <span><i class="fa-brands fa-github"></i></span>
-                </li>
-            </ul>
+    <div class="footer">
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
         </div>
-        <!-- partial -->
-      </div>
+        <ul class="social-icon">
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+        </ul>
+        <ul class="menu">
+          <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+    
+        </ul>
+        <p>&copy;2023 Simona Caruso | All Rights Reserved</p>
+    </div>
 </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
