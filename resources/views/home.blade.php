@@ -12,8 +12,7 @@ Homepage
         <div class="card-main">
             <div class="face face1">
                 <div class="content">
-                    <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20card-main%20Hover%20Effects/img/design_128.png?raw=true">
-                    <h3>Design</h3>
+                    <i class="fa-3x fa-solid fa-pencil text-center"></i>                    <h3>Design</h3>
                 </div>
             </div>
             <div class="face face2">
@@ -26,7 +25,7 @@ Homepage
         <div class="card-main">
             <div class="face face1">
                 <div class="content">
-                    <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20card-main%20Hover%20Effects/img/code_128.png?raw=true">
+                    <i class="fa-3x fa-solid fa-swatchbook text-center"></i>
                     <h3>Code</h3>
                 </div>
             </div>
@@ -40,8 +39,7 @@ Homepage
         <div class="card-main">
             <div class="face face1">
                 <div class="content">
-                    <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20card-main%20Hover%20Effects/img/launch_128.png?raw=true">
-                    <h3>Launch</h3>
+                    <i class="fa-3x fa-solid fa-rocket text-center"></i>                    <h3>Launch</h3>
                 </div>
             </div>
             <div class="face face2">

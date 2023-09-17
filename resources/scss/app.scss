@@ -73,7 +73,7 @@ main{
 .container-main .card-main{
     position: relative;
     cursor: pointer;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .container-main .card-main .face{
@@ -106,7 +106,7 @@ main{
     opacity: 1;
 }
 
-.container-main .card-main .face.face1 .content img{
+.container-main .card-main .face.face1 .content i{
     max-width: 100px;
 }
 
@@ -137,6 +137,7 @@ main{
 .container-main .card-main .face.face2 .content p{
     margin: 0;
     padding: 0;
+    color: #333;
 }
 
 .container-main .card-main .face.face2 .content a{
